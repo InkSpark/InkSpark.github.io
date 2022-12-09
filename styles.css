@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    
+}
+
+.a{
+    background-color: aqua;
+    background-image: url(img/candy.jpg);
+
+    height: 100vh;
+    padding: 1%;
+
+    
+
+}
+
+.cont{
+    background-color: bisque;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.b{
+    background-color: rgb(31, 145, 145);
+
+    height: 100%;
+    width: 49%;
+}
