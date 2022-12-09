@@ -89,18 +89,32 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
+    align-content: center;
 
 
-    background-color: yellow;
 }
 
 #desea{
     font-size: 20pt;
+    font-family: 'Montserrat Alternates', sans-serif;;
 
     color: var(--tB);
 
     height: auto;
 
-    background-color: yellowgreen;
+
+}
+
+#NOM{
+    font-size: 40pt;
+    height: auto;
+
+    color: var(--tA);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 
 }
