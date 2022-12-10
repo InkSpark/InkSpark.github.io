@@ -3,118 +3,52 @@
     margin: 0;
     box-sizing: border-box;
 
-    text-align: center;
-    font-family: 'Lobster', cursive;
-
 }
 
 
-
-:root{
-    --tA: #C21010;
-    --tB: #e08181;
-    --tC: #FFFDE3;
-    --tD: #CFE8A9;
-
-    /*Debug*/
-    --d1: pink;
-    --d2: red;
-    --d3: blue;
-    --d4: green;
-
-
-    
-}
-
-.d1{
-    background-color: var(--d2);
-}
-
-#start{
-    position: fixed;
-    width: 100%;
-
-    display: flex;
-
-}
-
-.a{
+section{
     background-color: aqua;
-    background-image: url(img/candy.jpg);
 
     height: 100vh;
-    padding: 1%;
+    width: auto;
 
-    
+    padding: 10pt;
 
 }
 
-.cont{
-    background-color: var(--tC);
-
+main{
+    background-color: bisque;
     height: 100%;
+    width: 100%;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 5pt;
+    padding: 5pt;
+
 }
 
-.b{
+div{
+    background: rgb(146, 23, 23);
 
+    margin-bottom: 3pt;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-
-    height: auto;
-    width: 100%;
-
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
 
-.c{
-    background-color: var(--d3);
 
-    width: 100%;
 
+.IcHolder{
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-#TIT{
-    font-size: 40pt;
-
-    color: var(--tA);
-
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-    align-content: center;
-
-
 }
 
-#desea{
-    font-size: 20pt;
-    font-family: 'Montserrat Alternates', sans-serif;;
+.icon{
+    background-color: darkmagenta;
 
-    color: var(--tB);
-
-    height: auto;
-
-
-}
-
-#NOM{
-    font-size: 40pt;
-    height: auto;
-
-    color: var(--tA);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
+    height: 100pt;
+    width: 100pt;
 
 }
