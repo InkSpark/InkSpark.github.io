@@ -9,7 +9,7 @@
 
 
 section{
-    background-color: aqua;
+    background-color: #163930;
 
     height: fit-content;
     width: auto;
@@ -20,16 +20,20 @@ section{
 }
 
 main{
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 100%;
     width: 100%;
 
     padding: 5pt;
 
+    border-style: solid;
+    border-color: yellow;
+    
+
 }
 
 div{
-    background: rgb(146, 23, 23);
+    /* background: rgb(146, 23, 23); */
 
     margin-bottom: 3pt;
     height: fit-content;
@@ -85,7 +89,7 @@ img{
 }
 
 .icon{
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
 
     height: fit-content;
     width: fit-content;
@@ -93,7 +97,7 @@ img{
 }
 
 #icon{
-    height: 150px;
+    height: 100px;
 }
 
 /* TEXTO */
