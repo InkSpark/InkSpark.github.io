@@ -13,6 +13,11 @@
     width: 100%;
     height: 100%;
 
+    background-image: url(../IMG/NAVI-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 
     display: flex;
     justify-content: center;
@@ -43,11 +48,36 @@
 }
 
 .textoo{
-    background-color: thistle;
+    /* background-color: thistle; */
 
     width: 100%;
+
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 300%;
+
+
+
 }
 
-.bot{
-    background-color: yellowgreen;
+
+button{
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+
+    border-radius: 50%;
+    border-style: none;
+    background-color: olive;
+
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+
+
 }
