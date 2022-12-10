@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+section{
+    background-color: aqua;
+
+    height: 100vh;
+    width: auto;
+
+    padding: 10pt;
+
+}
+
+main{
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+
+    padding: 5pt;
+
+}
+
+div{
+    background: rgb(146, 23, 23);
+
+    margin-bottom: 3pt;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.IcHolder{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    background-color: darkmagenta;
+
+    height: 100pt;
+    width: 100pt;
+
+}
