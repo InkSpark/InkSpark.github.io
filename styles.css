@@ -3,16 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 
+    text-align: center;
+
 }
 
 
 section{
     background-color: aqua;
 
-    height: 100vh;
+    height: fit-content;
     width: auto;
 
     padding: 10pt;
+    font-family: 'Lobster', cursive;
 
 }
 
@@ -39,6 +42,21 @@ div{
 
 
 
+/* PROFESOR SERANDO */
+.servando{
+    color: wheat;
+    font-size: 50pt;
+}
+
+
+/* DESEARTE UNA MUY */
+.deseo{
+    color: yellowgreen;
+    font-size: 20pt;
+}
+
+
+/* ÍCONOS */
 .IcHolder{
     display: flex;
     justify-content: space-around;
