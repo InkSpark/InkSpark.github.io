@@ -55,6 +55,14 @@ div{
     font-size: 20pt;
 }
 
+/* IMAGEN */
+.imagen{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+
+}
+
 
 /* ÍCONOS */
 .IcHolder{
@@ -66,7 +74,7 @@ div{
 .icon{
     background-color: darkmagenta;
 
-    height: 100pt;
-    width: 100pt;
+    height: 100px;
+    width: 100px;
 
 }
