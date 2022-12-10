@@ -3,30 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 
+    text-align: center;
+
 }
 
 
 section{
-    background-color: aqua;
+    background-color: #163930;
 
-    height: 100vh;
+    background: rgb(45,144,125);
+    background: rgb(45,144,125);
+    background: linear-gradient(141deg, rgba(45,144,125,1) 1%, rgba(22,57,48,1) 61%, rgba(0,212,255,1) 163930%);
+
+    height: fit-content;
     width: auto;
 
     padding: 10pt;
+    font-family: 'Lobster', cursive;
 
 }
 
 main{
-    background-color: bisque;
+    /* background-color: bisque; */
     height: 100%;
     width: 100%;
 
     padding: 5pt;
 
+    border-style: solid;
+    border-width: thick;
+    border-color: wheat;
+    
+
 }
 
 div{
-    background: rgb(146, 23, 23);
+    /* background: rgb(146, 23, 23); */
 
     margin-bottom: 3pt;
     height: fit-content;
@@ -39,16 +51,64 @@ div{
 
 
 
+/* PROFESOR SERANDO */
+.servando{
+    color: wheat;
+    font-size: 60pt;
+
+    height: 400px;
+}
+
+
+/* DESEARTE UNA MUY */
+.deseo{
+    color: yellowgreen;
+    font-size: 20pt;
+}
+
+/* IMAGEN */
+.imagen{
+    /* background-image: url(IMG/NAVI-02.png);
+    background-color: yellow; */
+
+    height: fit-content;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+    height: 350px;
+}
+
+
+/* ÍCONOS */
 .IcHolder{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    height: fit-content;
 }
 
 .icon{
-    background-color: darkmagenta;
+    /* background-color: darkmagenta; */
 
-    height: 100pt;
-    width: 100pt;
+    height: fit-content;
+    width: fit-content;
 
+}
+
+#icon{
+    height: 100px;
+}
+
+/* TEXTO */
+.texter{
+    color: yellowgreen;
+    font-size: 20pt;
+
+    padding: 8px;
 }
