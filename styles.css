@@ -45,7 +45,9 @@ div{
 /* PROFESOR SERANDO */
 .servando{
     color: wheat;
-    font-size: 50pt;
+    font-size: 60pt;
+
+    height: 400px;
 }
 
 
@@ -57,10 +59,19 @@ div{
 
 /* IMAGEN */
 .imagen{
-    background-color: yellow;
-    height: 300px;
+    /* background-image: url(IMG/NAVI-02.png);
+    background-color: yellow; */
+
+    height: fit-content;
     width: 300px;
 
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+    height: 500px;
 }
 
 
@@ -69,12 +80,24 @@ div{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    height: fit-content;
 }
 
 .icon{
     background-color: darkmagenta;
 
-    height: 100px;
-    width: 100px;
+    height: fit-content;
+    width: fit-content;
 
+}
+
+#icon{
+    height: 150px;
+}
+
+/* TEXTO */
+.texter{
+    color: yellowgreen;
+    font-size: 20pt;
 }
