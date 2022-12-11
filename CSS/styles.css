@@ -54,7 +54,7 @@ div{
 /* PROFESOR SERANDO */
 .servando{
     color: wheat;
-    font-size: 60pt;
+    font-size: 600%;
 
     height: 400px;
 }
@@ -80,7 +80,7 @@ div{
 }
 
 img{
-    height: 350px;
+    height: 100vh;
 }
 
 
